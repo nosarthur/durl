@@ -1,0 +1,2 @@
+twine>=3.7.1
+setuptools>=56.0.0

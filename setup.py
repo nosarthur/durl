@@ -5,19 +5,19 @@ with open('README.md', encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='purl',
-    packages=['purl'],
-    version='0.0.1',
+    name='durl',
+    packages=['durl'],
+    version='0.0.2',
     license='MIT',
     description='',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/nosarthur/purl',
+    url='https://github.com/nosarthur/durl',
     platforms=['linux', 'osx', 'win32'],
     keywords=['git', 'cui', 'command-line'],
     author='Dong Zhou',
     author_email='zhou.dong@gmail.com',
-    entry_points={'console_scripts': ['purl = purl.__main__:main']},
+    entry_points={'console_scripts': ['durl = durl.__main__:main']},
     python_requires='~=3.6',
     classifiers=[
         "Development Status :: 4 - Beta",
